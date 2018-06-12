@@ -8,8 +8,7 @@ end
 
 def input_to_index(input)
   input = input.to_i
-  index = input - 1
-  return index
+  index = 9
 end
 
 def move(board,index,character="X")
